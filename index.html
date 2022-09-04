@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5b51e4fc02.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1100px)"
+      href="CSS/widescreen.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="CSS/mobile.css"
+    />
+    <title>Investo Fin</title>
+  </head>
+  <body id="home">
+    <nav id="navbar">
+      <h1 class="logo">
+        <span class="text-primary">
+          <i class="fas fa-chart-line"></i> Investo </span
+        >Fin
+      </h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#what">What</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Header:Section -->
+    <header id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">The Finest of The Limits</h1>
+        <p class="lead">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum,
+          tempora! Pariatur sed reiciendis quia et.
+        </p>
+        <a href="#what" class="btn">Read more</a>
+      </div>
+    </header>
+    <!-- What we do  -->
+    <section id="what" class="bg-light py-1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="text-primary">What</span> we do
+        </h2>
+        <div class="items">
+          <div class="item">
+            <i class="fas fa-university fa-2x"></i>
+            <div>
+              <h3>Investment banking</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia, voluptates.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-book-reader fa-2x"></i>
+            <div>
+              <h3>Portfolio Management</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia, voluptates.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-pencil-alt fa-2x"></i>
+            <div>
+              <h3>Tax & Custodial</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia, voluptates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Who we are section -->
+    <section id="who">
+      <div class="who-img"></div>
+      <div class="who-text bg-dark p-2">
+        <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa
+          consectetur, alias eum tempora quos assumenda velit eligendi expedita
+          nesciunt sapiente. Quidem praesentium tenetur maiores tempora! Nulla
+          distinctio vel rerum!
+        </p>
+        <h3>Our Team</h3>
+        <ul class="list">
+          <li>Marks smith: CEO</li>
+          <li>Shannon Jhonson: CFO</li>
+          <li>Jhon Corbit: Lead Accountant</li>
+          <li>Jenet Williams: Investment Manager</li>
+          <li>Kara Jackson: Senior Accountant</li>
+        </ul>
+      </div>
+    </section>
+    <!-- Section: Our clients -->
+    <section id="clients" class="py-1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="text-primary">Our</span> Clients
+        </h2>
+        <div class="items py-1">
+          <div><img src="./Img/logos/logo1.png" alt="client" /></div>
+          <div><img src="./Img/logos/logo2.png" alt="client" /></div>
+          <div><img src="./Img/logos/logo3.png" alt="client" /></div>
+          <div><img src="./Img/logos/logo4.png" alt="client" /></div>
+          <div><img src="./Img/logos/logo5.png" alt="client" /></div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Contact -->
+    <section id="contact">
+      <div class="contact-form bg-primary p-2">
+        <h2 class="m-heading">Contact Us</h2>
+        <p>Please use the form to contact us</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" placeholder="Enter Phone" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Message"></textarea> </textarea>
+          </div>
+          <input type="submit" value="send" class="btn btn-dark">
+        </form>
+      </div>
+      <div class="map"></div>
+    </section>
+    <footer class="main-footer bg-dark text-center py-1">
+      <div class="container">
+        <p>Copyrirht &copy; 2021 Investo Financial, All rights reserved</p>
+      </div>
+    </footer>
+    <!-- JQuerry JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Local JS file -->
+    <script src="./JS/mian.js"></script>
+    <!--  -->
+    <!-- Google maps -->
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGwPMWCWE04D0llErTXagpXhdYaSvdxAI&callback=initMap">
+    </script>
+  </body>
+</html>
+<!-- AIzaSyCGwPMWCWE04D0llErTXagpXhdYaSvdxAI -->
