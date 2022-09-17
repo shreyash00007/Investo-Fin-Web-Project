@@ -1,3 +1,4 @@
+// Map function
 function initMap() {
     // Your location
     const loc = { lat: 18.5204, lng: 73.8567 };
